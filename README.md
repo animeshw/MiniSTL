@@ -12,10 +12,6 @@ This project is a comprehensive implementation of a Standard Template Library (S
 
 - **Constructor and Operator Overloading**: Demonstrates constructor overloading, copy constructors, move constructors, copy assignment operators, and move assignment operators, adhering to the Rule of Five for resource management.
 
-- **Exception Handling**: Incorporates exception handling mechanisms for operations such as out-of-bounds access, enhancing robustness and providing informative error messages.
-
-- **Memory Management**: Focuses on low-level memory management and includes include guards to prevent multiple inclusions, ensuring efficient resource allocation and deallocation.
-
 - **Type Traits and SFINAE**: Utilizes type traits and the SFINAE (Substitution Failure Is Not An Error) principle for creating type-safe interfaces and conditional template behavior.
 
 - **Functors and Function Overloading**: Supports functors and function overloading to provide flexibility in algorithm implementations and enhance code expressiveness.
@@ -104,6 +100,7 @@ This project is a comprehensive implementation of a Standard Template Library (S
             <td>operator=</td>
             <td>operator=</td>
             <td>operator=</td>
+            <td>-</td>
         </tr>
         <tr>
             <td>Modifiers</td>
@@ -211,6 +208,7 @@ This project is a comprehensive implementation of a Standard Template Library (S
             <td>empty</td>
             <td>empty</td>
             <td>empty</td>
+            <td>-</td>
         </tr>
         <tr>
             <td></td>
@@ -228,6 +226,7 @@ This project is a comprehensive implementation of a Standard Template Library (S
             <td>max_size</td>
             <td>max_size</td>
             <td>max_size</td>
+            <td>-</td>
         </tr>
         <tr>
             <td>Element Access</td>
@@ -263,6 +262,7 @@ This project is a comprehensive implementation of a Standard Template Library (S
             <td>-</td>
             <td>-</td>
             <td>-</td>
+            <td>-</td>
         </tr>
         <tr>
             <td></td>
@@ -279,6 +279,8 @@ This project is a comprehensive implementation of a Standard Template Library (S
             <td>-</td>
             <td>-</td>
             <td>-</td>
+            <td>-</td>
+            <td>-</td>
         </tr>
         <tr>
             <td></td>
@@ -286,6 +288,8 @@ This project is a comprehensive implementation of a Standard Template Library (S
             <td>end</td>
             <td>end</td>
             <td>end</td>
+            <td>-</td>
+            <td>-</td>
             <td>-</td>
             <td>-</td>
             <td>-</td>
@@ -330,6 +334,7 @@ This project is a comprehensive implementation of a Standard Template Library (S
             <td>-</td>
             <td>-</td>
             <td>-</td>
+            <td>-</td>
         </tr>
         <tr>
             <td></td>
@@ -347,11 +352,13 @@ This project is a comprehensive implementation of a Standard Template Library (S
             <td>-</td>
             <td>-</td>
             <td>-</td>
+            <td>-</td>
         </tr>
         <tr>
             <td></td>
             <td>-</td>
             <td>rend</td>
+            <td>-</td>
             <td>-</td>
             <td>-</td>
             <td>-</td>
@@ -435,27 +442,29 @@ This project is a comprehensive implementation of a Standard Template Library (S
             <td>-</td>
             <td>-</td>
             <td>-</td>
-        </tr>
-        <tr>
-            <td></td>
-            <td>-</td>
-            <td>upper_bound</td>
-            <td>upper_bound</td>
-            <td>upper_bound</td>
-            <td>upper_bound</td>
-            <td>upper_bound</td>
-            <td>upper_bound</td>
-            <td>upper_bound</td>
-            <td>-</td>
-            <td>-</td>
-            <td>-</td>
-            <td>-</td>
-            <td>-</td>
             <td>-</td>
         </tr>
         <tr>
             <td></td>
             <td>-</td>
+            <td>upper_bound</td>
+            <td>upper_bound</td>
+            <td>upper_bound</td>
+            <td>upper_bound</td>
+            <td>upper_bound</td>
+            <td>upper_bound</td>
+            <td>upper_bound</td>
+            <td>-</td>
+            <td>-</td>
+            <td>-</td>
+            <td>-</td>
+            <td>-</td>
+            <td>-</td>
+            <td>-</td>
+        </tr>
+        <tr>
+            <td></td>
+            <td>-</td>
             <td>equal_range</td>
             <td>equal_range</td>
             <td>equal_range</td>
@@ -463,6 +472,7 @@ This project is a comprehensive implementation of a Standard Template Library (S
             <td>equal_range</td>
             <td>equal_range</td>
             <td>equal_range</td>
+            <td>-</td>
             <td>-</td>
             <td>-</td>
             <td>-</td>
