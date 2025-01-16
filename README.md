@@ -1,6 +1,6 @@
 # miniSTL
 
-A miniature implementation of a C++ Standard Template Library (STL) in C++, designed to mimic the functionality of the STL while serving as a hands-on learning experience for understanding templates, data structures and algorithm design.
+A miniature implementation of a C++ Standard Template Library (STL), designed to mimic the functionality of the STL while serving as a hands-on learning experience for understanding templates, data structures and algorithm design.
 
 # Library Features:
 
