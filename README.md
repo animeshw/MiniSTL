@@ -4,7 +4,7 @@ This project is a comprehensive implementation of a Standard Template Library (S
 
 # Library Features:
 
-- **Template Programming**: Utilizes templates extensively, including default template arguments, to create generic container classes. This enhances code reusability and type safety.
+- **Template Programming**: Utilizes templates extensively, including default template arguments, to create generic container classes.
 
 - **Container Implementations**: Features core container classes such as `forward_list`, `list`, `vector`, `queue`, `stack`, `priority_queue`, `set`, `map`, `unordered_set`, `unordered_map`, and `string`, all designed with an interface similar to STL.
 
@@ -22,7 +22,7 @@ This project is a comprehensive implementation of a Standard Template Library (S
 
 - **Client-Server Separation/Modular Programming**: Adopts a modular programming approach with client-server separation, enhancing code organization and maintainability.
 
-- **Graph Algorithms**: Implements graph structures and algorithms using the mini STL, specifically leveraging `list`, `set`, and `unordered_set` to showcase the applicability of the library.
+- **Graph Algorithms**: Implements graph data structure and algorithms using the mini STL, specifically leveraging `list`, `set`, and `unordered_set` to showcase the applicability of the library.
 
 - **Test Cases**: Includes comprehensive test cases to validate the functionality of each component, ensuring reliability and correctness.
 
