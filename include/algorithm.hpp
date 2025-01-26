@@ -92,6 +92,13 @@ namespace ani{
             _pop_heap_by_index(first, 0, len - 1, std::move(val), comp);
         }
     }
+    
+    template <typename InputIt, typename UnaryOps>
+    UnaryOps for_each(InputIt first, InputIt last, UnaryOps ops){
+        for(; first != last; ++first)
+            ops(*first);
+        return ops;
+    }
 }
 
 #endif // _ALGORITHM_HPP
