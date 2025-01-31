@@ -99,6 +99,33 @@ namespace ani{
             ops(*first);
         return ops;
     }
+
+    template <typename InputIt, typename T>
+    InputIt find(InputIt first, InputIt last, const T& val){
+        for(; first != last; ++first){
+            if(*first == val)
+                return first;
+        }
+        return last;
+    }
+
+    template <typename InputIt, typename UnaryPred>
+    InputIt find_if(InputIt first, InputIt last, UnaryPred pred){
+        for(; first != last; ++first){
+            if(pred(*first))
+                return first;
+        }
+        return last;
+    }
+
+    template <typename InputIt, typename UnaryPred>
+    InputIt find_if_not(InputIt first, InputIt last, UnaryPred pred){
+        for(; first != last; ++first){
+            if(!pred(*first))
+                return first;
+        }
+        return last;
+    }
 }
 
 #endif // _ALGORITHM_HPP
