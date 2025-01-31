@@ -126,6 +126,21 @@ namespace ani{
         }
         return last;
     }
+
+    template <typename InputIt, typename UnaryPred>
+    bool all_of(InputIt first, InputIt last, UnaryPred pred){
+        return find_if_not(first, last, pred) == last;
+    }
+
+    template <typename InputIt, typename UnaryPred>
+    bool any_of(InputIt first, InputIt last, UnaryPred pred){
+        return find_if(first, last, pred) != last;
+    }
+
+    template <typename InputIt, typename UnaryPred>
+    bool none_of(InputIt first, InputIt last, UnaryPred pred){
+        return find_if(first, last, pred) == last;
+    }
 }
 
 #endif // _ALGORITHM_HPP
